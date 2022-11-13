@@ -27,6 +27,7 @@ class Question:
             question_list[i].decision = question_list[i].answer2
         elif choice == '3':
             question_list[i].decision = question_list[i].answer3
+            
         if question_list[i].decision == question_list[i].correct:
             self.point = 1
 
